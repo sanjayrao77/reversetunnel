@@ -1,0 +1,2 @@
+certtool --generate-privkey --outfile fixed.key
+certtool --generate-self-signed --load-privkey fixed.key --outfile fixed.cert
